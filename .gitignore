@@ -1,5 +1,5 @@
-reated by https://www.gitignore.io/api/macos,python,windows,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=macos,python,windows,visualstudiocode
+# Created by https://www.gitignore.io/api/macos,python,windows,virtualenv
+# Edit at https://www.gitignore.io/?templates=macos,python,windows,virtualenv
 
 ### macOS ###
 # General
@@ -135,6 +135,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+Include/
+Scripts/
+tcl/
 
 # Spyder project settings
 .spyderproject
@@ -154,16 +157,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -189,5 +193,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# End of https://www.gitignore.io/api/macos,python,windows,visualstudiocode

@@ -135,8 +135,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Venv sub-folders
+etc/
 Include/
 Scripts/
+share/
 tcl/
 
 # Spyder project settings
